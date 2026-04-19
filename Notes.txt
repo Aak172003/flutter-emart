@@ -1,0 +1,2 @@
+stl -> to build stateless screen 
+stf -> to build stateful screen 
