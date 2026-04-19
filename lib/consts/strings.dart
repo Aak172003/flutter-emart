@@ -26,3 +26,12 @@ const home = "Home";
 const categories = "Categories";
 const cart = "Cart";
 const account = "Account";
+
+//  -------------------- Home Screen Strings -------------------------
+const searchAnything = "Search Anything .......",
+    todayDeal = "Today's Deal",
+    flashSale = "Flash Sale",
+    topSellers = "Top Sellers",
+    brand = "Brand",
+    topCategories = "Top Categories",
+    featuredCategories = "Feature Categories";
