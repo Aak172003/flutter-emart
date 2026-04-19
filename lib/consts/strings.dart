@@ -1,6 +1,6 @@
 const appname = "eMart";
 const appversion = "Version 1.0.0";
-const credits = "@Aakash Flutter Dev";
+const credits = "@FlutterDev";
 
 // Constants
 const email = "Email";
@@ -21,3 +21,8 @@ const loginWidth = "Log in with";
 const privacyPolicy = "Privacy Policy";
 const termsAndConditions = "Terms And Conditions";
 const alreadyHaveAnAccount = "Already have an account? ";
+
+const home = "Home";
+const categories = "Categories";
+const cart = "Cart";
+const account = "Account";
