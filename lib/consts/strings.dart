@@ -70,3 +70,5 @@ const video = "Video",
 
 const productYouMayLike = "Product you may also like";
 const addToCart = "Add To Cart";
+
+const wishList = "My Wishlist", orders = "My Orders", message = "Messages";
