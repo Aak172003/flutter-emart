@@ -1,3 +1,5 @@
+import 'package:emart_app/consts/images.dart';
+
 const appname = "eMart";
 const appversion = "Version 1.0.0";
 const credits = "@FlutterDev";
@@ -34,4 +36,17 @@ const searchAnything = "Search Anything .......",
     topSellers = "Top Sellers",
     brand = "Brand",
     topCategories = "Top Categories",
+    womenDress = "Women Dress",
+    girlWatches = "Girl Watches",
+    mobilephones = "Mobile Phones",
+    boyGlasses = "Boy Glasses",
+    tShirt = "TShirt",
+    girlDress = "Girl Dress",
+    featuredProduct = "Featured Product",
     featuredCategories = "Feature Categories";
+
+const featuredImages1 = [imgS1, imgS2, imgS3];
+const featuredImages2 = [imgS4, imgS5, imgS6];
+
+const featuredTitle1 = [womenDress, girlDress, girlWatches];
+const featuredTitle2 = [boyGlasses, mobilephones, tShirt];
