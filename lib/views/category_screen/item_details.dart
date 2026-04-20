@@ -199,14 +199,13 @@ class ItemDetails extends StatelessWidget {
                       ),
                     ),
 
-                    "Product you may also like".text
+                    productYouMayLike.text
                         .fontFamily(bold)
                         .size(16)
                         .color(darkFontGrey)
                         .make(),
 
                     // 10.heightBox,
-
                     SingleChildScrollView(
                       scrollDirection: Axis.horizontal,
                       child: Row(
@@ -256,7 +255,7 @@ class ItemDetails extends StatelessWidget {
               color: redColor,
               onPress: () {},
               textColor: whiteColor,
-              title: "Add To Cart",
+              title: addToCart,
             ),
           ),
         ],

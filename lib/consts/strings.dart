@@ -67,3 +67,6 @@ const video = "Video",
     sellerPolicy = "Seller Policy",
     returnPolicy = "Return Policy",
     supportPolicy = "Support Policy";
+
+const productYouMayLike = "Product you may also like";
+const addToCart = "Add To Cart";
