@@ -1,4 +1,5 @@
 import 'package:emart_app/consts/consts.dart';
+import 'package:emart_app/views/category_screen/item_details.dart';
 import 'package:emart_app/widgets_common/bg_widget.dart';
 
 class CategoryDetails extends StatelessWidget {
@@ -75,7 +76,12 @@ class CategoryDetails extends StatelessWidget {
                           .roundedSM
                           .outerShadowSm
                           .padding(EdgeInsets.all(12))
-                          .make();
+                          .make()
+                          .onTap(() {
+                            Get.to(
+                              () => const ItemDetails(title: "Dummy Item"),
+                            );
+                          });
                     },
                   ),
                 ),
