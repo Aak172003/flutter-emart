@@ -50,3 +50,14 @@ const featuredImages2 = [imgS4, imgS5, imgS6];
 
 const featuredTitle1 = [womenDress, girlDress, girlWatches];
 const featuredTitle2 = [boyGlasses, mobilephones, tShirt];
+
+// Categories String
+const womenCloathing = "Women Clothing",
+    compAccess = "Computer & Accessories",
+    autoMobile = "Automobile",
+    kidToys = "Kids Toys",
+    sport = "Sports",
+    jewellary = "Jewellary",
+    cellPhone = "Cell Phones & Tabs",
+    furniture = "Furniture",
+    mensClothingFashion = "Mens Clothing & Fashion";
