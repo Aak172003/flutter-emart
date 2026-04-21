@@ -1,9 +1,16 @@
 import 'package:emart_app/views/splash_screen/splash_screen.dart';
-
 import 'package:emart_app/consts/consts.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  debugPrint("Binding initialized");
+
+  await Firebase.initializeApp();
+  debugPrint("Firebase initialized");
+
   runApp(const MyApp());
+  debugPrint("App started");
 }
 
 class MyApp extends StatelessWidget {
